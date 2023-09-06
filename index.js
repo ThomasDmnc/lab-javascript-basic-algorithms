@@ -56,7 +56,7 @@ console.log(countNb);
 
 // Bonus 2:
 let phraseToCheck = "taco cat";
-let phraseWithOutSpace = phraseToCheck.replace(/\s/g, '');
+let phraseWithOutSpace = phraseToCheck.phraseToCheck.replace(/[^a-zA-Z]+/g, '').toLowerCase();
 
 let tempResult = "";
 
